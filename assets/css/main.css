@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #a2a2a2;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
+		font-size: 24pt;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -2065,7 +2065,7 @@ input, select, textarea {
 			text-align: center;
 		}
 
-			.image.thumb:after {
+		/*	.image.thumb:after {
 				-moz-transition: opacity 0.2s ease-in-out;
 				-webkit-transition: opacity 0.2s ease-in-out;
 				-ms-transition: opacity 0.2s ease-in-out;
@@ -2097,7 +2097,7 @@ input, select, textarea {
 				background: url("images/overlay.png"), url("images/overlay.png");
 				opacity: 1.0;
 			}
-
+*/
 		.image img {
 			border-radius: 0.35em;
 			display: block;
@@ -2963,9 +2963,9 @@ input, select, textarea {
 		opacity: 0.5 !important;
 	}
 
-	body.is-touch .image.thumb:after {
+	/*body.is-touch .image.thumb:after {
 		display: none !important;
-	}
+	}*/
 
 	body.is-touch #header {
 		background-attachment: scroll;
