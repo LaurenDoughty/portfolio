@@ -167,12 +167,12 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1em;
 		line-height: 1.5em;
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 1em;
 		line-height: 1.5em;
 	}
 
@@ -210,7 +210,7 @@ input, select, textarea {
 		border-radius: 0.35em;
 		border: solid 2px #efefef;
 		font-family: "Courier New", monospace;
-		font-size: 0.9em;
+		font-size: 1em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
 	}
@@ -1785,7 +1785,7 @@ input, select, textarea {
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
-		font-size: 0.9em;
+		font-size: 1em;
 		margin-top: -0.6em;
 		line-height: 1.5em;
 	}
@@ -1803,7 +1803,7 @@ input, select, textarea {
 	label {
 		color: #787878;
 		display: block;
-		font-size: 0.9em;
+		font-size: 1em;
 		font-weight: 400;
 		margin: 0 0 1em 0;
 	}
@@ -2591,13 +2591,18 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-color: #4158D0;
+		background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+		/*
+background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+		*/
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.21);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
